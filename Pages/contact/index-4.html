@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Box</title>
+    <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.contact-box {
+  width: 400px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.contact-box h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.contact-box p {
+  margin: 0;
+}
+
+.contact-box input[type="text"],
+.contact-box textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.contact-box input[type="submit"] {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contact-box input[type="submit"]:hover {
+transition: 0.3s;
+transform: scale (1.2);
+background-color: #333;
+color: #eee;
+}
+
+
+        </style>
+    </head>
+    <body>
+
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p>Fill out the form below to get in touch with us.</p>
+            <br>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="Submit">
+        </div>
+    </body>
+</html>
+
