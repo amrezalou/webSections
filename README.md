@@ -7,7 +7,7 @@ _notice that this repo is for when you don't have enough time to handle these pa
 ## Usage-1
 
 1. you can open files right here and copy the sources.
-2. pase on your own file and...
+2. paste on your own file and...
 
 ## Usage-2
 
@@ -18,6 +18,12 @@ _notice that this repo is for when you don't have enough time to handle these pa
     ``` cd webSections/ ```
 
 3. use the codes and change the parts which you want, like colors.
+
+## Examples
+
+![login page](https://github.com/amrezalou/webSections/blob/main/Pages/login/Example.png)
+![contact box](https://github.com/amrezalou/webSections/blob/main/Pages/contact/Example.png)
+
 
 
 ### can i contribute?
